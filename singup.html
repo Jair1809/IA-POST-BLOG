@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans antialised">
+      <!--Navbar-->
+      <nav class="bg-blue-600 p-4 text-white flex justify-between">
+        <div>
+            <h1 class="text-3xl font-bold">
+                Registro
+            </h1>
+        </div>
+
+        <div>
+            <a href="#" class="text-white hover:underline">Login</a>
+            <a href="#" class="text-white hover:underline">Registro</a>
+        </div>
+    </nav>
+    <br>
+    <!--Main content-->
+    <div class="flex items-center justify-center h-screen">
+        <div class="bg-white p-8 shadow-md rounded-lg max-w-md w-full">
+
+            <!--login form-->
+            <form class="space-y-4">
+                <h2 class="text-xl font-semibold">Registrar
+                </h2>
+                    <div>
+                        <label for="username" class="block mb-1 font-medium">Nome</label>
+                        <input type="text" id="username" name="username" placeholder="Digite seu Nome..." class="w-full p-2 border rounded">
+                    </div>
+
+                    <div>
+                        <label for="email" class="block mb-1 font-medium">Email</label>
+                        <input type="text" id="email" name="email" placeholder="Digite seu Email..." class="w-full p-2 border rounded">
+                    </div>
+
+                    <div>
+                        <label for="passoword" class="block mb-1 font-medium">Senha</label>
+                        <input type="text" id="passoword" name="passoword" placeholder="Digite sua senha..." class="w-full p-2 border rounded">
+                    </div>
+
+                    <div>
+                        <label for="repeatPassoword" class="block mb-1 font-medium">Confirme a Senha</label>
+                        <input type="text" id="repeatPassoword" name="repeatPassoword" placeholder="Confirme sua senha..." class="w-full p-2 border rounded">
+                    </div>
+                    <button type="submit" class="w-full bg-blue-600 text-white p-2 rounded hover:bg-blue-700">Registrar</button>
+                    
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
